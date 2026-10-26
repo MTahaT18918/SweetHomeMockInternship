@@ -1133,9 +1133,7 @@ public class FurnitureTable extends JTable implements View, Printable {
         case HEIGHT : 
           return preferences.getLocalizedString(FurnitureTable.class, "heightColumn");
         case VOLUME : 
-          // TODO: Implement getting localized volumeColumn string
-          // return preferences.getLocalizedString(FurnitureTable.class, "volumeColumn");
-          return "Volume"; 
+          return preferences.getLocalizedString(FurnitureTable.class, "volumeColumn");
         case X : 
           return preferences.getLocalizedString(FurnitureTable.class, "xColumn");
         case Y :
